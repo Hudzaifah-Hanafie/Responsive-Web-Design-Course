@@ -1,0 +1,47 @@
+body {
+  background-color: navy;
+}
+
+.container {
+  max-width: 450px;
+  padding: 20px;
+  background-color: lightgrey;
+  margin: 50px auto;
+}
+
+.container > h1 {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.todo-list > li {
+  background-color: cornflowerblue;
+  padding: 20px;
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: aqua;
+}
+
+a:visited {
+  color: aquamarine;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:focus {
+  outline: 2px solid orange;
+  color: orange;
+}
+
+a:active {
+  color: gold;
+}
