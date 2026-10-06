@@ -1,0 +1,41 @@
+body {
+  background-color: gainsboro;
+}
+
+.blog-post-card {
+  background-color: white;
+  border-radius: 15px;
+  width: 450px;
+  text-align: center;
+}
+
+.post-img {
+  width: 100%;
+  border-bottom: 5px solid navy;
+}
+
+.post-content {
+  padding: 1px;
+}
+
+.post-title {
+  color: navy;
+}
+
+.post-excerpt {
+  color: grey;
+}
+
+.read-more {
+  color: white;
+  background-color: navy;
+  margin: 7px;
+  padding: 7px;
+  border-radius: 7px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  background-color: blue;
+}
