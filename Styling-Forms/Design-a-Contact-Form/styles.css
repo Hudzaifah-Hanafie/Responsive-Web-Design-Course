@@ -1,0 +1,41 @@
+body {
+  background-color: midnightblue;
+  color: whitesmoke;
+  font-family: sans-serif, arial;
+}
+
+.form-container {
+  background-color: #ffffff1a;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80vw;
+  max-width: 400px;
+  margin: 10vh auto;
+  box-shadow: 0 2px 12px black;
+}
+
+label {
+  display: block;
+  margin: 5px auto;
+  color: whitesmoke;
+}
+
+input, textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+button {
+  cursor: pointer;
+  background-color: midnightblue;
+  color: whitesmoke;
+  padding: 10px 25px;
+  border: 2px solid whitesmoke;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  background-color: royalblue;
+}
