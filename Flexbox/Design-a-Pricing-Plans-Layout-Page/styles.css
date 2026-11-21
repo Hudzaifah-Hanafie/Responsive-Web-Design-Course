@@ -1,0 +1,44 @@
+.pricing-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 0 0 200px;
+  border: 2px solid black;
+  padding: 15px;
+  margin: 10px;
+}
+
+.basic-plan {
+  order: 0;
+}
+
+.pro-plan {
+  order: 1;
+  flex-grow: 2;
+}
+
+.premium-plan {
+  order: 2;
+}
+
+h2, .price {
+  text-align: center;
+}
+
+hr {
+  width: 80%;
+}
+
+.btn-choose-plan {
+  margin: 8px;
+  align-self: center;
+  background-color: gold;
+  border: 2px solid black;
+  padding: 5px;
+  font-weight: bold;
+}
