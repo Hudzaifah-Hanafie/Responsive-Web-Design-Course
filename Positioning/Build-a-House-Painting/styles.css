@@ -1,0 +1,109 @@
+.sky {
+  width: 100vw;
+  height: 50vh;
+  background-color: lightblue;
+}
+
+.ground {
+  width: 100vw;
+  height: 50vh;
+  background-color: green;
+}
+
+#house {
+  position: relative;
+  width: 500px;
+  height: 400px;
+  z-index: 1;
+  background-color: pink;
+  border: 5px solid brown;
+  margin: calc(-50vh - 200px) auto 0;
+}
+
+#house > * {
+  position: absolute;
+}
+
+#roof {
+  width: 500px;
+  height: 100px;
+  border: 3px solid #B22222;
+  background-color: #B22222;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tiles {
+  width: 50px;
+  height: 45px;
+  border: 3px solid black;
+}
+
+#chimney {
+  width: 50px;
+  height: 100px;
+  border: 3px solid black;
+  background-color: gray;
+  top: -100px;
+  left: 350px;
+  z-index: -1;
+}
+
+#window-1 {
+  width: 90px;
+  height: 90px;
+  border: 5px solid brown;
+  background-color: yellow;
+  top: 150px;
+  left: 62.5px;
+  display: flex;
+}
+
+#window-2 {
+  width: 90px;
+  height: 90px;
+  border: 5px solid brown;
+  background-color: yellow;
+  top: 150px;
+  left: 345px;
+  display: flex;
+}
+
+.divider {
+  width: 50%;
+  height: 100%;
+  border: 2px solid brown;
+}
+
+#door {
+  width: 100px;
+  height: 150px;
+  border: 5px solid brown;
+  background-color: lightgrey;
+  bottom: 0;
+  left: 200px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.doorknob {
+  width: 25px;
+  height: 25px;
+  background-color: brown;
+  border-radius: 50%;
+}
+
+#doormat {
+  width: 100px;
+  height: 50px;
+  border: 3px solid black;
+  background-color: lightgreen;
+  top: 405px;
+  left: 195px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  transform: skewx(-15deg);
+}
